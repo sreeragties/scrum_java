@@ -35,7 +35,7 @@
             />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/e1"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
@@ -43,7 +43,7 @@
             android:text="Development- Programming" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/e2"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login2"
@@ -51,14 +51,14 @@
             android:text="WP Integration" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/e3"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
             android:textColor="#FFFFFF"
             android:text="Home Page Direction Document" />
         <Button
-            android:id="@+id/button15"
+            android:id="@+id/e4"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login2"
@@ -66,7 +66,7 @@
             android:text="Remove noindex from meta" />
 
         <Button
-            android:id="@+id/button14"
+            android:id="@+id/e5"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
@@ -74,28 +74,28 @@
             android:text="301 preparation" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/e6"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login2"
             android:textColor="#FFFFFF"
             android:text="HTML and Integration" />
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/e7"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
             android:textColor="#FFFFFF"
             android:text="Design Tasks" />
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/e8"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login2"
             android:textColor="#FFFFFF"
             android:text="Fetching Page content Dynamically" />
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/e9"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
@@ -105,7 +105,7 @@
             android:text="Lead Review Development" />
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/e10"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login2"

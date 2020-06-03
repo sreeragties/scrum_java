@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    databaseHelper myDb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 openTask();
             }});
+        myDb = new databaseHelper(this);
 
     }
     public void openLogin(){

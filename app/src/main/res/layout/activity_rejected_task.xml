@@ -36,7 +36,7 @@
 
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/a1"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
@@ -48,7 +48,7 @@
 
 
         <Button
-            android:id="@+id/button18"
+            android:id="@+id/a2"
             android:layout_width="match_parent"
             android:layout_height="80dp"
 
@@ -57,10 +57,12 @@
             android:textColor="#FFFFFF" />
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/a3"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
+
+
 
             android:textColor="#FFFFFF"
             android:text="301 PREPARATION" />

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".empty"></activity>
+        <activity android:name=".taskview"></activity>
+        <activity android:name=".empty" />
         <activity android:name=".employee" />
         <activity android:name=".profileview" />
         <activity android:name=".content_task" />

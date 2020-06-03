@@ -36,7 +36,7 @@
 
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
@@ -48,7 +48,7 @@
 
 
         <Button
-            android:id="@+id/button18"
+            android:id="@+id/b2"
             android:layout_width="match_parent"
             android:layout_height="80dp"
 
@@ -57,7 +57,7 @@
             android:textColor="#FFFFFF" />
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/b3"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login1"
@@ -66,7 +66,7 @@
             android:text="HTML AND INTEGRATION" />
 
         <Button
-            android:id="@+id/button21"
+            android:id="@+id/b4"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/bt_login2"
