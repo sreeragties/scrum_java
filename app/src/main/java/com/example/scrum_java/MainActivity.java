@@ -10,10 +10,14 @@ import android.view.View;
 import android.widget.Button;
 
 
+
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
     databaseHelper myDb;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Button loginButton;
         Button dashButton;
         Button taskButton;
+
+
+
+
 
         loginButton = findViewById(R.id.buttontask);
         loginButton.setOnClickListener(new View.OnClickListener() {
@@ -57,4 +65,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,tasktask.class);
         startActivity(intent);
     }
+
+
 }

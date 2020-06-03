@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "474443104776",
+    "firebase_url": "https://scrum-java.firebaseio.com",
+    "project_id": "scrum-java",
+    "storage_bucket": "scrum-java.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474443104776:android:88fe428ce23041d6ee87bd",
+        "android_client_info": {
+          "package_name": "com.sreerag.scrumjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474443104776-91i0bt9tnl98hldtelkqgqgtu3jj8fgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCqSgIFydfaYOR_DYAX9XKkTmg4caLIVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474443104776-91i0bt9tnl98hldtelkqgqgtu3jj8fgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
