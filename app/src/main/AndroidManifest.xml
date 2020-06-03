@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scrum_java">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".empty"></activity>
+        <activity android:name=".employee" />
+        <activity android:name=".profileview" />
+        <activity android:name=".content_task" />
+        <activity android:name=".human_resources" />
+        <activity android:name=".develop_task" />
+        <activity android:name=".pending_task" />
+        <activity android:name=".rejected_task" />
+        <activity
+            android:name=".tasktask"
+            android:screenOrientation="portrait" />
+        <activity android:name=".sub_task1" />
+        <activity
+            android:name=".Subtask1"
+            android:label="@string/title_activity_subtask1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dashboard_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mainTasks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

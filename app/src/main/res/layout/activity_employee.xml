@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:background="#607D8B">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            app:title="    Employees"
+            app:titleTextColor="#B0BEC5"
+
+
+            android:background="#37474F"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="1dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/but20"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+
+            android:text="Employee 1"
+            android:textColor="#546E7A" />
+
+        <Button
+            android:id="@+id/but19"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+
+            android:textColor="#546E7A"
+
+            android:text="Employee 2" />
+
+        <Button
+            android:id="@+id/but18"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+
+            android:text="Employee 3"
+            android:textColor="#546E7A" />
+
+        <Button
+            android:id="@+id/but17"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+
+            android:textColor="#546E7A"
+            android:text="Employee 4" />
+
+        <Button
+            android:id="@+id/but16"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+
+            android:textColor="#546E7A"
+            android:text="Employee 5" />
+
+        <Button
+            android:id="@+id/but15"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+            android:textColor="#546E7A"
+            android:text="Employee 6" />
+
+        <Button
+            android:id="@+id/but14"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+            android:textColor="#546E7A"
+            android:text="Employee 7" />
+
+        <Button
+            android:id="@+id/but13"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+            android:textColor="#546E7A"
+            android:text="Employee 8" />
+
+        <Button
+            android:id="@+id/but12"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+            android:textColor="#546E7A"
+            android:text="Employee 9" />
+
+        <Button
+            android:id="@+id/but11"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+
+
+            android:textColor="#546E7A"
+            android:text="Employee 10" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

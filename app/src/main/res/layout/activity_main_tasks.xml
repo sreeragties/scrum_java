@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#607D8B">
+
+    <Button
+        android:id="@+id/hr"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bt_login"
+        android:text="REJECTED"
+
+        android:textFontWeight="200"
+        android:textColor="#FFFFFF"
+
+        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".10"
+        tools:layout_editor_absoluteY="499dp"
+        />
+        <Button
+            android:id="@+id/pend"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bt_login"
+            android:text="PENDING"
+            android:textColor="#FFFFFF"
+
+
+            tools:layout_editor_absoluteX="161dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias=".30"
+            tools:layout_editor_absoluteY="499dp"
+            />
+    <Button
+        android:id="@+id/devel"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bt_login"
+        android:text="DEVELOPMENT"
+        android:textColor="#FFFFFF"
+
+
+        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".50"
+        tools:layout_editor_absoluteY="499dp"
+        />
+    <Button
+        android:id="@+id/testing"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bt_login"
+        android:text="TESTING"
+        android:textColor="#FFFFFF"
+
+
+        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".70"
+        tools:layout_editor_absoluteY="499dp"
+        />
+    <Button
+        android:id="@+id/compl"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bt_login"
+        android:text="COMPLETED"
+        android:textColor="#FFFFFF"
+
+
+        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".90"
+        tools:layout_editor_absoluteY="499dp"
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:title="    Scrum Board"
+        app:titleTextColor="#B0BEC5"
+
+
+        android:background="#37474F"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"
+
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
